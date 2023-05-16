@@ -22,5 +22,5 @@
 * useState
 
 
-* [Ссылка на работу] (https://victoria0114.github.io/mesto/)
+* [Ссылка на работу] (https://github.com/Victoria0114/mesto-react)
 
