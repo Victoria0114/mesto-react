@@ -14,7 +14,7 @@ function PopupWithForm({ name, title, isOpen, onClose, children, buttonText, onS
           onSubmit={onSubmit}
         >
           {children}
-          <button className={`popup__save popup__save_disabled popup__save_type_${name}`} type="submit" aria-label="Сохранить">
+          <button className={`popup__save popup__save_type_${name}`} type="submit" aria-label="Сохранить">
             {buttonText}
           </button>
         </form>
