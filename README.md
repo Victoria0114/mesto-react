@@ -17,8 +17,8 @@
 * Методология БЭМ + файловая структура Nested
 * JavaScript (ES2015)
 * Сборка проекта с помощью Webpack 
-**Api** 
-**React** 
+* Api 
+* React
   - JSX
   - "хуки"
   - useEffect
