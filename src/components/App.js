@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-
 import Header from './Header';
 import Main from './Main';
 import PopupWithForm from './PopupWithForm.js';
@@ -8,7 +7,6 @@ import Footer from './Footer';
 import EditProfilePopup from "./EditProfilePopup";
 import EditAvatarPopup from "./EditAvatarPopup";
 import AddPlacePopup from "./AddPlacePopup";
-
 import { CurrentUserContext } from '../contexts/CurrentUserContext';
 import { api } from "../utils/Api";
 
@@ -24,8 +22,6 @@ function App() {
     _id: " ",
   });
   const [cards, setCards] = useState([]);
-
-  
 
   const updateUser = () => {
     api
