@@ -1,4 +1,5 @@
 # mesto-react, project 11
+
 # Проект 'Mesto Russia' на React
 
 ** [Ссылка на работу] (https://github.com/Victoria0114/mesto-react) **
@@ -10,20 +11,16 @@
 
 ## Используемые технологии
 
-* HTML5
-* CSS3
-* Flexbox
-* Адаптив 
-* Методология БЭМ + файловая структура Nested
-* JavaScript (ES2015)
-* Сборка проекта с помощью Webpack 
-* Api 
-* React
+- HTML5
+- CSS3
+- Flexbox
+- Адаптив
+- Методология БЭМ + файловая структура Nested
+- JavaScript (ES2015)
+- Сборка проекта с помощью Webpack
+- Api
+- React
   - JSX
   - "хуки"
   - useEffect
   - useState
-
-
-
-

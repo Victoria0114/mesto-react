@@ -1,4 +1,4 @@
-{ 
+{
   "homepage": "https://victoria0114.github.io/mesto-react",
   "name": "mesto-react",
   "version": "0.1.0",
@@ -39,6 +39,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "gh-pages": "^5.0.0",
+    "prettier": "2.8.8"
   }
 }

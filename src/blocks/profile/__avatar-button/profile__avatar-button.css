@@ -1,11 +1,11 @@
 .profile__avatar-button {
-    position: relative;
-    width: 120px;
-    height: 120px;
-    padding: 0;
-    border: none;
-    margin-right: 30px;
-    background-color: transparent;
+  position: relative;
+  width: 120px;
+  height: 120px;
+  padding: 0;
+  border: none;
+  margin-right: 30px;
+  background-color: transparent;
 }
 .profile__avatar-button::before {
   position: absolute;
@@ -22,15 +22,9 @@
 .profile__avatar-button:hover::before {
   opacity: 0.8;
   cursor: pointer;
-} 
+}
 @media screen and (max-width: 780px) {
-  .profile__avatar-button{       
+  .profile__avatar-button {
     margin: 0 auto;
   }
 }
-
-
-  
-  
-  
-  
