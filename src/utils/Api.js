@@ -88,8 +88,11 @@ export default class Api {
 
   /////   !!!!!!!
 
-  changeLikeCardStatus(cardId, isLiked){
-    isLiked ? this.deleteLike(cardId) : this.putLike(cardId);
+  changeLikeCardStatus(id, isLiked) {
+    return fetch(`${this._baseUrl}/cards/${id}/likes`, {
+      method: isLiked ? "DELETE" : "PUT",
+      headers: this._headers,
+    }).then(this._checkResponse);
   }
 }
 
